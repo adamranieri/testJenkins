@@ -1,0 +1,158 @@
+TypeScript
+1.	What is TypeScript?
+Superset of JavaScript
+- more oop support than JS
+- It has classes and interfaces
+- it is statically typed
+- It has several in built types and the abiilty to create them 
+- You cannot run a TypeScript file. It must transpile into JavaScript
+in order to be run
+
+3.	What are the types in TS? 
+number, boolean, Array, string, never, null, any, undefined, void, enum
+
+4.	What is the default version of JS that TS transpiles to?
+ES5
+
+Angular
+1.	What is Angular? 
+- It is a frontend framework written in TypeScript for developing Single Page Applications
+- Designed by Google.
+- AngularJS predates Angular and is significanyly different using feautues like scopes
+and being written in JavaScript
+- Angular is modular and allows us to write expressive HTML (custom html)
+
+What is the Angular CLI
+Command line interface
+create a new project ng new applicationname
+create a component ng generate component componentname
+creat a service ng generrate service servicename
+
+2.	What is a component?
+- functional gear/ core building of Angular
+- Decorator meta information on the component
+(selector the html tag name of the component
+template url link to html , you can put a string literal
+style url link to a style sheet )
+- template 
+- TypeScript class
+
+ng g c componentname
+the cli will generate 4 files for you
+TypeScript file
+the HTML file
+the CSS file
+spec.ts file is where the tests for your application are stored (Think of it as JUnit)
+
+The component will be added as an import on the module.ts page and added to the declarations
+
+4.	What is a service?
+TypeScript class which provides some sort of utility
+A well Designed service will provide functions that are helpful in several components
+not component specific
+
+5.	Tell me how to make http requests
+1. import HttpClientModule
+2. import HttpClient in the class you are going to use it
+3. You put the client in the constructor
+4. http.get("URL") returns an Observable
+
+9.	What is an Observable?
+- Asynchronous object
+- An Observable is an array whoch can take in items Asynchronously
+- You subscribe to an Observable observable.subscribe()
+- As the items come in it will call appropiate callback functions 
+based on whether information was recieved successfully or not
+
+6.	What does @Injectable do?
+- We see Injectable with our services. 
+- it signals to Angular that this class can be injected and used within other classes
+- in the application
+
+14.	What is dependency injection?
+- Design Pattern 
+rather than writing for mulitple classes and having to refactor the code when there are changes
+we can inject the code/class into the constructor. 
+- by doing so multiple components can share a single class and we can write less boilerplate code
+- and changes to the functionality need only be on a single class
+
+7.	What is a Directive? Types?
+custom html that Angular provids which makes or HTML expressive and dynamic
+
+1. Structural - add or remove the html elements *ngIf *ngFor
+2. component - custom html tag
+3. attribute - custom html attribute like [(NgModel)]
+
+8.	What is a Module in Angular?
+- highest level of the Angular architecture. It will control the components used
+in this module
+- An Angular application must have at least one module in the application called
+the root-module
+- A module will bootsrtap a component
+
+What is Bootstrapping
+- When an intial component like the root-component is loaded into the page
+and then other components within root-component loaded in etc....
+
+11.	What is Angular Routing?
+
+import RouterModule
+RouterModule.forRoot(routes)
+const routes : Route = [
+    {path :"url", component :componentname}
+
+]
+
+12.	What are the types of data binding?
+
+event
+html => TS (click)
+
+two way 
+html <==> TS [(NgModel)]
+
+property
+html <= ts [href] = "espn"
+
+interpolation
+{{value}}
+HTML <= TS
+
+
+13.	What is a pipe?
+Transforms some input into a differnt more human friendly output in our HTML
+ 10 | currency :'USD' 
+
+15.	Framework vs Library?
+Library you write your code and use resources available in the Library to complete
+and run YOUR applicaiton
+You make a program your way
+You made your own application 
+
+A framework has Inversion of control
+A framework is a skeleton that you flesh out
+The framework is the application it and calls your code
+you make a program the framework ways
+You made an angular application (You put your code into an Angular Application)
+
+
+Miscellany
+1.	What is a linter?
+Analyzes your code for bad coding practices 
+redundant or poorly used variables 
+Does not actually change your code
+
+2.	What is Node?
+JavaScript Runtime Enviroment developed by Google
+we can run JavaScript serverside
+feeds into the mentality of JavaScript Everywhere
+
+3.	What is NPM?
+Node Package Mangager (similiar to maven)
+manages the depencies for an node project like Angular
+pakcage.json lists the depencies used int an application (similiar to a pom)
+
+5.	What is Webpack?
+Module bundler that wraps up your files into usable functional 
+chunks to be used clientside
+- You can upload the modules only when they are needed

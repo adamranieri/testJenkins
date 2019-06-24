@@ -1,0 +1,122 @@
+Hibernate
+- ORM framework Object Relational Mapping
+- match java POJOS to tables for us automatically
+- abstract away the JDBC
+- generate the sql for us
+- API for performing basic crud operations
+
+Advantages of Hibernate
+- You remove a lot of boilerplate code
+- Avoid writing sql
+- abstract the database and decouple your java application 
+to a single database
+-----------------------------------------------------------------
+Configure Hibernate
+
+- hibernate.cfg.xml
+contain information such as how to connect to a database
+
+username, location, password, type of database, driver to use
+optional configurations include thing like ability to do ddl, show sql
+
+<mapping> is responsible for saying which objects in you java
+get a table in the database 
+
+
+Interfaces of Hibernate
+-----------------------------------------------------------
+Configuration - which is not really and Interface it is class
+it is responsible for finding the mapping and Configuration documents to creat the
+SessionFactory
+
+SessionFactory - Creates sessions for our application 
+
+Session - Used to create CRUD operations
+persist() - This will save to the db has a void return
+save() - Save to the db will return a serializable 
+getTransaction() - gets you the transcation
+getCriteria() - gets you a criteria
+getQuery() - gets you a query
+
+Update vs merge - Hibernate does not allow two objects with same id in the same session
+update on one object with another object in the session with same id will throw an exception
+beacue it does not know which object should actaully be changed. Merge is replacing the one
+object with id 10 with another object in the session
+update() 
+merge()
+
+get(myclass.class, idoftheobject) - Eager immediately go to the database and get all the information associated 
+with the object
+load(myclass.class, idoftheobject) - Lazy loading will return a proxy object with many fields not having a value.
+Those values are only loaded when they are specificaly requested later in the code
+
+close() ends the session
+
+Criteria -
+SQLQuery, HQLQuery, Query
+Transaction - for starting and commiting transactions
+
+----------------------------------------------------------
+States in Hibernate
+
+Transient - The object is not attached to any  session
+peristent - the object is attached to a session and changes will go to the database
+detached - An object that was peristent but the session it was attached to has closed
+
+--------------------------------------------------------
+Ways to query in Hibernate
+
+1. criteria 
+Create a new criteria object* criteria is actually an Interface
+add a restriction
+
+2. HQL Hibernate Query Language
+- HQL synatax is not bound to a single sql database syntax. It makes our HQL
+applicable across many RDBMS
+- It is a bit more oop centric
+
+3. Native sql
+- Useful if you cannot use the other two ways of querying
+
+--------------------------------------------------------------------------------------
+Mapping classes with hibernate
+
+
+1.Annotations 
+@Entity - Define the class as peristent i.e. it gets a table in the database
+@Id - Made a field the primary key
+@GeneratedValue - Used the default Hibernate Sequence to create a unique value
+
+
+multiplicities
+@OneToOne  
+@OneToMany
+@ManyToMany mappedBy will tell hibernate which table should be considered the parent 
+
+
+2. something.hbm.xml (XML mapping file)
+
+
+
+L1 VS L2 caching
+
+L1 caching is session scoped 
+So objects with the same information in the same session are going to be shared.
+Hibernate will not go to the database because the pertinent information is already in the session
+This is automatically done by Hibernate
+
+
+L2 caching is SessionFactory scoped
+So objects with the same inforomation shared among multiple sessions will be used
+To use L2 caching you need to use a third part packe like Ecache or JBOSS cache
+Manually have to set up L2 caching
+
+
+Directionality 
+
+unidirection relationship is where the child object is only obtainble via the parent
+object. You cannot use the child to get the parent
+
+Bidirectional relationship is when you can use the child or the parent to get each other
+
+

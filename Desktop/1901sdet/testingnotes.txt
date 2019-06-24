@@ -1,0 +1,152 @@
+Selenium - A suite of tools aimed at automation (used predominantly for testing)
+
+Selenium IDE 
+
+Selenium Client API - Support for writing Selenium in many languages
+
+Selenium Remote Control - Server that allows for writing web application tests
+in any language
+
+Selenium Grid - A server that can test using many machines running in parallel
+
+Selenium Webdriver - A serverless way to execute your tests. The heart of modern 
+Selenium. Starts a browser instance and controls it. 
+
+You need different drivers for each type of browser
+
+Selenium Locators
+by id
+by name
+by class
+by xpath Why is xpath not the best?
+by css selector
+by tag name
+
+
+implicit wait - is a set amount of time that Selenium will wait to grab any element
+before throwing an exception that it cannot be found
+driver.manage().timeouts().implicitwait(seconds)
+set how long to wait for any element
+
+explicit wait - Selenium has been told specifically for a single element how long to wait
+
+chromedriver.exe chrome
+geckodriver.exe  firefox
+
+-----------------------------------------------------------------------
+POM (Page Object Model)
+
+We create a Java Class whose fields represent elements in a web Page
+We use the POM to help organize our code and abstract getting elements
+Makes code extensible and easy to read
+
+PageFactory which can be used create POM's 
+I am not a fan
+
+-------------------------------------------------------------------------
+TestNG is a superset of JUnit
+TestNextGeneration
+- we can set priorities to easilydetermine the order in which our test run. 
+- And the ability to run tests in parallel
+
+
+
+-------------------------------------------------------------------------
+Cucumber is a BDD framework
+Behavior Driven Development
+TDD- Test Driven Development. You write to help guide your design Development
+BDD is an extension of TDD where you write user stories/ features to be implmented
+imagine it as an end user going to use your application
+- Develop failing acceptance tests until they pass
+
+
+
+Cucumber Feature file 
+
+Feature: describe the feauture or segment of functionality /part of website you are testing
+high level description of the software feature
+
+background: is ised to provide context to our software feature
+
+Scenario : defines steps to be written in Gherkin
+
+
+Gherkin  is a very high level language which is essentially english.
+it provides a structure for our code to implement. Gherkin will generate
+the method signature for a test called the step implentations
+
+Given: Some set of preconditions
+When: some set of action(s)
+Then: some sort of test/ obeservable outcome
+
+Scenario Outline
+Allows you to pass in variables to test the Scenario with multiple inputs
+
+in the Scenario outline
+"<variable>"
+
+Example:
+
+|variable|
+| value  |
+
+To write Cucumber BDD test
+1. Write a feature file
+2. implement the step implentations created by the feature file
+3. You have to put the stepimplemations and feature in a test runner
+@CucumberOptions glue code
+
+
+------------------------------------------------------------------------------
+Jasmine
+
+Testing framework for JavaScript
+
+describe - describe the test suite
+it - a specific test or spec
+expect - creates an expectation
+toBe - assertion
+
+Matchers 
+
+toEqual
+toBeLessThan
+toBeGreaterThan
+toBeFalse
+toBeTrue
+toBeTruthy 
+tobBeFalsy
+toBeNaN
+toContain
+toBeToClose
+
+-----------------------------------------------------------------------
+
+Protractor
+end to end testing
+- e2e testing framework designed for angular application
+if you dont mention it is specifically for are Angular
+- You can use on non angular pages
+
+conf.js - Selenium address, location of specs
+spec.js - your specs/tests
+
+with Protractor you host a server for Selenium
+in java it was serverless
+
+------------------------------------------------------------------------
+Smoke testing
+running tests just to see if your application is even in a state to be tested
+
+
+
+
+
+
+
+
+
+
+
+
+

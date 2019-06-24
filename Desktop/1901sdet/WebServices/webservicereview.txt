@@ -1,0 +1,165 @@
+SOA - Service Oriented architecture
+black box, 
+
+service - program or softare functionality that is accesible through a couple of API'service
+
+Web service - a service provided ovet the internet where api endpoints are urls
+
+Adavatages to web service
+- Abstracts the service I do not need to know underlying code
+- Interoperability. My Java Program can call and endpoint for a server written int Ruby
+- You can make sure that everone using the application has the most up to date version
+- indpendent and split services make for easier enterprise level applications
+
+
+RespreSentational state Transfer
+RESTful Web services
+- uses http and only http
+- REST constraints
+
+1. Cacheability (http responses can be stored client side)
+2. Stateless (No session information is stored)
+3. Client server architecture loose coupling
+4. RESTful services can be layered
+5. Code on demand (optional)
+
+6.0 uniform interface
+6.1 A single request contains all inforation needed for it to process
+6.2 Manipulation of Resources through representation (you can return any format)
+6.3 Hypermedia as the engine of the application state (gives you hyperlinks to other related resources)
+6.4 identification of resources through the uri
+
+HTTP-
+HyperText Transfer Protocol
+verbs/methods
+get
+post not idempotent
+put
+delete
+
+HTTP request
+
+-HTTP version
+
+-headers meta inforation
+- body (Why is get lonely Because its got no body lolololololol)
+- URL (where it is going)
+
+- http verb
+
+
+HTTP response
+
+- HTTP version
+
+- body
+- head
+- status code (information on how your request was handled)
+
+
+100's - inforation
+200's - Success 201 Successfully created a resource
+300's redirect
+400's - client side 404,403 vs 401 ,405,451
+500's - server side errors
+
+SOAP
+Simple Object Access Protocol
+-  WSDL a contract with all the necessay information needed to use my web service
+Web service Description Language 
+
+Tags in the WSDL
+<binding> Protocol and how to connect to my service
+<service> where to acceses the service endpoint
+<operations> methods availble for my web service 
+<type> breaks down any special or custom types "objects" into primitives
+<message> A message will contain the parmeters for an input and the output
+
+<message> int age, String name</message>
+<message> Person p <message>
+<fault> exception </fault>
+
+
+<definitions> root tag
+
+SOAP uses XML and only XML
+
+Soap message
+Tags
+
+<envelope>
+
+<Header> optional mustUnderstand attribute  says that the message must be read without
+errors to be properly processed
+
+<body> contatins your message
+
+<fault> optional will contain information about errors
+
+UDDI Universal Decription Disover and integration
+
+Jersey 
+- Java Framework for creating RESTful Web services
+- jax.ws.rs.whatevers
+- We use annotations to create out RESTful service
+
+
+
+@Path("location")
+public class a
+
+
+
+@GET
+@Produces(MediaType.APPLICATION_JSON)
+public static Respone something(){
+
+    some logic
+
+    return Response.ok(obj,MediaType.APPLICATION_JSON).build();
+} 
+
+
+@QueryParam
+@MatrixParam 
+@PathParam
+@Consumes(MediaType.APPLICATION_XML ) this method is expectig a body with this data type
+@Context
+
+@XmlRootElement - placed over a class will tell Jersey it can be turned into XML
+
+Marshalling - Java Object into XML
+unmarshalling - XML to Java Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

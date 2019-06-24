@@ -1,0 +1,119 @@
+SOA - Service Oriented Architecture
+- Building Architecture for bussiness and enterprise applictions
+- Emphasis on loose-coupoing and black-box implementation
+
+Service as a discrete unit of functionality
+- login Service
+- Bank Transaction Service
+- Services can be accesed remotely and idependently
+- services self contained
+- Services might be composed of other services
+
+As companies grow requirements or changes to software happen. 
+slight changes in requirements between departments can bee very difficult to implement
+
+
+Web Service - Just a service accesible over the interwebs
+- provide interoperablity between platforms and languages
+- Seperation between services and application code
+- Everyone will be using the most current version of the code
+- updates are essentially automatic and behind the scenes
+
+Jersey - Is a framework for creating RESTFUL web Services in Java
+-Heavy use of annotations
+
+REST
+Representational State Transfer
+- Architecture used to construct web apis
+- Uses only HTTP
+
+Rest Constraints 6
+
+1. client server Architecture - Seperation of concerns
+the ui is independent from the resources
+
+2. REST is stateless
+no maintaining of the seesion or information stored on the server
+
+3. Cacheability 
+- ability to chose to cache a response on the client side
+
+4. Layered System
+- you can stack a web service on top of another webserive
+- You can create isolation and is often used for security
+
+5. code on demand (optional)
+- the ability to transfer over executable code
+
+6. Uniform interface
+- standar set of rules for clients to more easily acces and use REST
+
+6.1 - Identification of resources
+-resources are identified via the URI
+
+6.2 Manipulation of resources through representations
+- The response that you get recieve from a rest call can take many forms
+- JSON or XML or Plain text, png
+- You do not send back the resource itself but a representation of it
+- often the client can choose what they want the representaion to be
+
+6.3 self descriptive messages 
+- Each request contains all the information necessary to process the request.
+- It should all security tokens or how to intepret the message
+
+6.4 Hypermedia as the Engine of the application state (HATEOAS)
+- A response should have links to other helpful URI's in the webservice
+
+
+HTTP
+HyperText Transfer Protocol
+Any Protocol is a way of transferring information
+integrity of the message in important
+
+udp - User Datgram Protocol (Radio Broadcast) You get what you get do not slow down
+
+HTTP methods
+
+HTTP methods with CRUD operation equivalents
+get - Read idempotent
+post - Create NOT idempotent
+delete - Delete idempotent
+put - Update idempotent
+
+idempotent - Math term for an operation that can performed 1 to infintely many times
+and it does chang the result. *0 *1 /1 +0 -0 (+1 -1)
+
+head
+options
+
+HTTP status codes
+
+100 - information. Acknowledgemt that a request was recived and is still being processed
+200 - success
+300 - redirect
+400 - client side error 404- page/resource not found 405 -gate error - 403 - forbidden access
+451 - denied for legal resaons (your country has blocked this resource)
+500 - server or internal error
+
+
+HTTP request
+
+- Verb/method get put post delete
+- request header meta information about the request
+- URL
+- request body get will have an empty body
+
+- http version
+
+HTTP response
+
+- Response body
+- Response header
+- status code
+
+-http version
+
+
+
+
+

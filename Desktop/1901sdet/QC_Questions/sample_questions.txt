@@ -1,0 +1,542 @@
+ -Josh Pressley
+-Accenture Federal Services
+-Sept 4 2018
+
+What testing frameworks have you used?
+How do you do manual testing?
+how do you resolve defects?
+if a defect appears, what do you do?
+What experience do you have with testing, how did you use testing in your previous experiences?
+how were defects list maintained?
+How have you used WebDriver in your projects?
+how do you prioritize tests?
+what development methodology did you use?
+what do you find more appealing(testing/development/etc…)?
+why did you choose programming?
+how does testing work in your projects?
+how have you managed projects/issues/todos/etc in your projects?
+how do you do continuous integration.
+How do you set up a pipeline?
+how do you resolve pipeline failures?
+how big are your scrum teams?
+how did you divide the work for the project?
+was it continuously integrated? how?
+<I think there were a few more, but I don’t remember them.>
+
+-------------------------------------------------------------------------
+
+Emmanuel Maku
+-Accenture AFS
+-Sept 4, 2018
+
+Tell me about yourself.
+How did you document your tests? What software was used?
+Are you familiar with Ruby?
+What is Functional Testing?
+What is Integration Testing?
+How did you report defects? What software was used?
+How can you locate elements using Selenium?
+Have you written and done both manual and automated testing? 
+Talk about the projects that you worked on? What was your task?
+Have you used Jenkins?
+Have you worked in an Agile Environment?
+What is the Page Object Model? Have you used this in any of your projects?
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Paul Capellan
+- Accenture Federal Services
+- 9/4/2018
+1. Tell me about yourself.
+2. Tell me about the projects you worked on.
+3. Did you use integration testing in your projects?
+4. Did you do testing on Web Services?
+5. How do you locate elements in Selenium?
+6. Explain how you did testing in your projects.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Taylor Brodowsky
+- Accenture Federal Services
+- 9/4/2018
+
+Interview started with a description about the company, team structure, and project to be worked on.
+1. Do you have any questions for me?
+2. Tell me about yourself?
+3. Between Scrum master, tester, and developer which do you like the most?
+4. Tell me about the testing that you did in your projects.
+5. How did you set up your test in the project, explain your methods.
+5. Tell me the structure you implemented in your testing.
+6. How do you log defects?
+7. What web-service Testing services do you know?
+8. Do you know Ruby?
+9. Do you have any questions for me?
+
+Jacob Golding
+- Accenture Federal Services
+- 9/4/2018
+
+Tell me about yourself.
+Talk about what you did on your projects
+What issues did you have running test in continuous integration
+How did you log the results of your test
+How do you not have to write xpath, css selector, etc in test code(POM question)
+How to code finding a web-element
+How to find a web-element, how to find a xpath, or css selector
+How to you code an explicit wait
+How do you report a defect
+Emmanuel Maku
+InfoSys
+9/7/18
+
+1. Tell me about yourself.
+2. What is Agile? How have you applied agile in your projects?
+3. What is TDD and BDD?
+4. What is the scrum approach?
+5. How have you written user stories?
+6. Are you familiar with .NET or C#? If not, what is your learning curve?
+
+
+Timothy Panyard
+InfoSys
+9/10/2018
+
+What did you study/what work experience do you have?
+What is the most recent project you worked on?
+Are you familiar with ETL?
+How would you validate data being transferred between two databases?
+What is the difference between a primary key and a foreign key?
+Given a data table without primary keys, how would return only even numbered rows?
+Given a data table “Employees” with name, address, city, and salary:
+What is the syntax for listing all unique salaries and the number of employees that make that amount?
+What is the syntax for getting a city and the number of employees that live in that city?
+What is the syntax for getting all employees whose first name starts with the letter ‘A’?
+What is the difference between an inner join and a left outer join?
+What is the syntax for getting all the rows of a join between two tables?
+How do you write a main method in Java?
+What would be the return type of the main method?
+What access modifiers do you know?
+How do you make a connection to a database in Java using JDBC?
+
+Mustapha Olokun
+Infosys
+09/06/2018
+
+Lets start with your introduction.
+Have you been briefed on your location?
+How are your learning capabilities?
+How familiar are you testing in .NET?
+What are your testing techniques? How would you approach testing a product?
+Can you talk about the projects you've worked on recently?
+Can you talk about the testing technologies you've used?
+
+Technical Questions
+Can you explain the difference between an abstract class and interface?
+What is the difference between a class and an object?
+What does the term internal mean?
+What is the difference between method overriding and overloading?
+Can you override a method?
+Talk about inheritance
+
+Christopher Siu
+InfoSys
+9/10/2018
+Tell me about yourself and your education.
+Tell me about your role and responsibilities in your most recent project.
+What testing frameworks have you used in last few months? How did you use them and how much of it came from your previous experience and how much came from Revature?
+What kinds of manual testing did you do for you project?
+How do you keep track of tests? How do you manage tasks in your project?
+What sort of test metrics did you collect when testing?
+What were some of the initial problems when starting the project?
+Did you have someone specifically for functional testing?
+What’s the difference between functional and regression testing?
+
+Steve Loayza
+Infosys
+9/10/18
+
+List technologies you know
+List database technologies 
+Tell me about your projects
+Tell me the different types of testing, defect lifecycle
+Describe agile methodology
+Describe why agile is better than waterfall
+On a scale of 1-10, list your knowledge of SQL
+On a scale of 1-10, list your knowledge of sub-queries
+How do you track defects
+What is maven
+Where do you add dependencies
+How would you join two student columns based on id
+
+Levin Huang
+Infosys
+9/10/18
+
+Give us a little bit about yourself
+Talk about how you performed testing on your various projects
+Do you know about Gherkin?
+What are some key characteristics of Gherkin?
+How would you implement the Page Object Model and what is it?
+What are some methods in the Page Object Model?
+How did you go about doing positive/negative testing in your application?
+How do Page Objects differ from the Page Factory?
+How would you select the 10th highest paid employee from a table of employees?
+Talk us through the workflow of your automation tests
+How would you perform end to end testing of an application? (Full stack, Actually STLC?)
+ How would you make a connection to a database?
+What is the syntax you would use?
+How did you collect your test metrics?
+What are the different types of waits in Selenium (there are actually 3, Implicit, Explicit, and Fluent)
+Why did you use Protractor to test your project in addition to Selenium?
+Do you have experience working with offshore/offsite co-workers?
+A lot more Selenium/Webdriver specific questions that I currently cannot recall
+Henry Simon
+Charter Communications (via Infosys)
+9/10/18
+
+Introduce yourself
+Tell us about your most recent project
+What testing frameworks do you know?
+How do you use Selenium Webdriver to locate a web element?
+How do you find elements that depend on dynamic programming?
+What is Gherkin?
+What does a feature file look like?
+Do you know (some Ruby framework)?
+Have you worked with Python?
+What are your greatest strengths?
+What are your greatest weaknesses?
+ Do you have any questions for us?
+
+Brian Maguire
+Infosys
+9/11/18
+
+How are you?
+Tell me about some of the technologies you have learned?
+Rate yourself on how well you think you know SQL 1-10, 10 being the best
+Do you know about Joins?
+Sample scenario 
+Have an employee and employee salary table.  Employee table has an employee id and name and employee salary table has an employee id and a salary.  Tell me syntactically how you would join those tables to see which employees make more than 500,000 dollars
+You know about Testing?
+What types of testing are you aware of?
+Sample scenario
+Your at a school.  Kids from the age of 0-3 are in kindergarten, 4-7 are in first grade and 7-10 are in second grade.  How would you go about testing to see if the kids are in the correct grade?
+Do you know about boundary conditions?
+Are you the Java batch, Web Services batch or?
+You know testing?
+What testing frameworks have you used?
+Do you know about defects?
+How did you track your defects?
+You know about Scrum? What are some meetings that take place in a scrum methodology?
+Do you know of any other agile methodologies?
+What is maven?
+Can the dependencies in maven be pointing to a local repository?
+You know of selenium?
+What is the difference between a test plan, test strategy, and test script?
+You know Java?
+What is the difference between JDBC and ORM?
+You know Cucumber?
+In cucumber, where would i write all of my scenarios?
+Do you have any questions for us?
+
+
+Timothy Panyard
+InfoSys w/Bank of America
+9/11/2018
+
+What projects have you worked on, specifically what testing frameworks have you used on these projects?
+What tools/documents do you need in order to begin writing tests?
+What kind of tests have written (unit tests, integration tests, regression tests, etc.)?
+What is your test methodology (waterfall, agile, etc.)?
+What is your daily routine using agile?
+How involved is your project owner in development?
+Scenario: Say it’s the end of the day on a Friday, and a tester comes to you with a major issue they discovered. How do you handle this situation?
+How would you handle having another story point assigned to you while working on the above issue?
+How would you use Selenium WebDriver to test a login page?
+Can you simulate web requests using WebDriver?
+
+Kevin Wu
+Infosys w/ Bank of America
+9/11
+What’s your background? 
+What testing frameworks have you used?
+What roles and what specifically did you implement in your projects?
+How did you set up DevOps?
+Do you have experience with Agile? Waterfall?
+What is a story in the Agile framework? Give me an example.
+What do you do if the three part story you’re handed should be an eight part story?
+How would you deal with a developer that doesn’t want to talk to you?
+How do you test a login page? What framework would you use?
+How do you test if the design of the webpage is what the developer intended?
+How do you test in different browsers with Selenium?
+Do you have experience with REST? SOAP?
+What do you consume/produce? (remember MIME)
+What annotations are required to establish REST?
+How do you connect to a database through hibernate and RESTful web services?
+How do you make a RESTful web service?
+What is Jersey?
+How do you test a RESTful web service? 
+How do you consume a RESTful web service?
+What is the difference between authorization and authentication in REST?
+Given thousands of requests on your web service, how do you improve efficiency?
+Say you do not have permissions to change the backend (caching), what else do you do?
+What are the isolation levels? What are the tradeoffs?
+Is there a difference between get and post? 
+What about for REST? 
+For SOAP?
+Given an ATM machine, what tests would you perform on it?
+Are you okay with relocation? 
+
+Kevin Wu
+Cognizant
+9/17
+Give me your background?
+What is BDD? TDD?
+What is Jenkins? What did you use it for?
+Locators in Selenium, list as many as you know.
+What is an interface in Java? Give me an example of one in your projects
+What is the difference between static and dynamic polymorphism?
+How do you parse XML data in Java?
+What is virtualization?
+Other than Postman, what other RESTful testing services have you used?
+How do you make an element visible in JavaScript?
+How do i upload files in Selenium? In a remote server using Selenium?
+How do I ensure Selenium works regardless of environment?
+Tell me about Amazon Web Services and how you used it in your projects
+Why use maven instead of other services? Sell maven to me.
+How do you direct test output to a particular folder?
+What dependencies did you use with maven?
+Given two applications, one complete and one not complete, how do I link the two to obtain data from the incomplete application?
+What is Jasmine?
+Tell me about Cucumber
+How do you set up and use log4j?
+Why is TestNG better than JUnit? Is it better?
+How do you ensure the data your recieve from a database is what you want? In other words, how do you verify/test your incoming data?
+
+Kevin Wu
+Infosys
+9/17
+Tell me about yourself
+I heard TestNG. How do you ensure something is run before every class?
+What is Cucumber?
+How do you use a data set in Cucumber? 
+What are the testing frameworks you used in your project?
+Why did you use all those different frameworks? Why not just TestNG?
+How do I test the login screen with Selenium?
+How do I assert the login failed in Selenium?
+How do I assert the login was successful in Selenium?
+Say I have a icon. How do I verify it is the correct icon? How do I verify if the icon is not showing? How do I verify if it is not supposed to show, but it is showing?
+What is your knowledge in Python?
+How would you develop a test for a Python project?
+Do you have more of a focus in development or testing?
+What role did you play in developing continuous delivery?
+Why use maven and Jenkins?
+How did you set up Jenkins?
+Say you have a table of employee names and a separate table of employee IDs, and I want to print both of them. What is the exact syntax for creating this query?
+
+Josh Perry
+InfoSys
+9/11/18
+
+What is your education background/ did you do any internships
+How would you reverse a string in Java?
+Difference between absolute and relative xpath.
+Talk about role in projects.
+ Given an Account Table in SQL, it should only have distinct IDs. It gets corrupted and now has duplicates. How would you determine which IDs are duplicated.
+How to grab an element with Selenium.
+Questions about HTML/CSS and what they are used for.
+Difference between inner join and full outer join in SQL.
+Experience with web services and how you validate one. What is JSON.
+Any restrictions on relocation.
+
+
+
+Mohamed Yousef
+InfoSys
+9/11/t18
+Tell me about projects you have worked on?
+What was your role in these projects?
+What was the biggest challenge you faced in your last project?
+Are you okay being placed in a QA role?
+What testing frameworks have you used?
+How did you manage your tests?
+What would you do if you discover a bug?
+What would make you consider something as a bug?
+Do you have any questions for me?
+
+Manus Andurkar
+InfoSys
+Tell me about yourself.
+What work experience do you have?
+What projects have you worked on?
+What do you know about e-commerce?
+What do you know about testing?
+Do you have any questions for me?
+
+Jonathan Kuhl
+InfoSys
+Tell me about yourself
+What is your experience with Selenium?
+What do you need to run Selenium (Firefox/Chrome Driver)
+Scenario:  Imagine I have a new webpage, and I want to test the login page.
+He wanted specific methods and classes:
+How do I set up web driver?
+How do I send the browser to a specific url?
+How do I wait, given that I don’t know how long to wait, for elements to load? (explicit wait, is what he was looking for)
+How do I select the input texts, buttons and provide information?
+How do I verify that webpage has logged in, assuming the URL did not change?
+Scenario:  Imagine I use webdriver to search for “John” and get a table as a result.  Imagine there are four “Johns” and you expected 5.  How do you use webdriver to test this discrepancy?
+What happens when a web element doesn’t load in time for an implicit wait? (he didn’t seem happy until I said TimeoutException is thrown, as well as the test failing)
+What have you used TestNG on?
+How do you run TestNG from POM? (add build steps to POM, he wanted to know explicitly)
+How do you test with Postman?
+What is the difference between GET and POST?  PUT and POST?
+Ye Old Abstract Class vs Interface question
+What are some tags in TestNG
+How specifically do you use @DataProvider
+Difference between @BeforeTest and @Before Method
+What is POM (he wanted to hear about dependency management)
+He was happy when I asked him if his team was Agile
+How would you manually test a log in page?  (note, he expected we start by providing bad data first.)
+Vivi Vo
+InfoSys
+Tell me about your experience and your recent projects
+How do you manual test a large scale application with 6000 users?
+Are you familiar with agile?
+Which testing frameworks have you used?
+How do you manage your test data?
+What’s your experience with Cucumber?
+Tell me how you used JavaScript, HTML/CSS, Angular in your project
+Do you enjoy developing or testing more?
+Are you okay with doing manual testing?
+
+Timothy Panyard
+9/14/2018
+InfoSys (Charter Communications)
+
+Talk about your background and experience.
+Where/when did you finish your education?
+Are you familiar with Python?
+What projects have you used TestNG and Selenium for?
+What are some annotations you’ve used in TestNG?
+Are you familiar with SQL Databases?
+How would I view all of the information in a table in ascending order of a column?
+How would you rate yourself in Python?
+How would you rate yourself in Java?
+How would you get the entire result of two SQL tables being joined together?
+How do you connect your database and test framework using JDBC?
+How would write a test to check if a company logo appeared on a web page?
+
+
+Timothy Panyard
+9/17/2018
+Cognizant
+
+Tell me about yourself.
+Tell me about the projects you have worked on, specifically the technology you used.
+How did you learn these technologies?
+What do you need to write Protractor tests?
+How do you design Protractor tests?
+What technologies have you used in Java?
+What technologies have you used to create the front end of your applications?
+What are access modifiers in Java?
+What does ‘static’ mean in Java?
+Can static methods be overridden?
+What are classes in Java?
+What are abstract classes in Java?
+What are interfaces in Java?
+How have you used WebDriver?
+
+Vivi Vo
+9/17/2018
+Cognizant
+Tell me about yourself and the technologies you have used
+What is SQL? What are different type of joins?
+What is the different between inner join and outer join? Left join vs Right join?
+Group By vs Order By
+What is the default for Order By? Ascending or descending?
+What are different web driver API that you have experience working with (Chrom Driver, Firefox Driver)
+Do you prefer using ChromeDriver or Firefox driver and why?
+Different between Assert and Verify in Selenium?
+How do you click an element in Selenium WebDriver? 
+What are different type of locators in Selenium? 
+How do you construct a dynamic xpath? 
+What is // and / means in xpath? 
+How do you launch a webpage using  Selenium Webdriver? 
+
+
+
+
+
+Emmanuel Maku
+9/17/2018
+Cognizant
+
+Tell me about yourself?
+Are you familiar with SQL?
+What do you know about SQL?
+Give Example of CRUD operations?
+Name as many functions as you can that SQL uses?
+Find a list of employees whose salary is between ____ and ____ using SQL.
+How can I delete a column?
+Imagine there is a lotus in the middle of the pond. It doubles in size everyday. The pond is of size 20. On what day is the lotus size 10?
+How do I click a link using Selenium WebDriver?
+What is does driver.get(....) do in WebDriver?
+How can I navigate back in history using WebDriver?
+What are webservices? What are they used for?
+Have you used webservices?
+
+
+Emmanuel Maku 
+9/17/2018
+Infosys
+
+What are some projects/classes you have completed in college?
+Have you ever published or present a technical research in college?
+How can I retrieve an employee with 3rd highest salary using SQL?
+Are you familiar with UNIX?
+What is grep?
+What is cat?
+How can I append to a file in UNIX?
+How can I print the 3rd row of a file using unix commands?
+What is Head? Tail?
+What does cat > file mean?
+What does cat >= file mean?
+Reverse a String in Java without using reverse method.
+
+
+
+
+
+
+
+Timothy Panyard
+9/18/2018
+InfoSys
+
+Tell me a little bit about yourself.
+Do you have experience in automation?
+How would you use Selenium to drag and drop an element?
+How would you use Selenium to test a drop-down menu?
+Have you used a string mapper before?
+How would you convert a string to int and vice versa?
+Have you used Jenkins before?
+What image did you use for your AWS EC2 with Jenkins?
+
+Timothy Panyard
+9/19/2018
+Wal-Mart
+
+Introduce youself/tell us about your background
+What is a constructor?
+How do you write a constructor? (write it out in notepad)
+Say you are trying to remove duplicates from a set of data, what data construct would you use?
+Can you write a method for this? (in notepad)
+Can you write a constant in Java?
+Do you know SQL?
+Can you write an SQL query for getting the top two highest scoring students in a class? (in notepad)
+
+

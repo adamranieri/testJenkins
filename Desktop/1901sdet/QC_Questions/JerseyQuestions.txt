@@ -1,0 +1,34 @@
+jersey questions-
+
+What is Jersey
+Java framework for rest API
+configured using a web.xml and annotations
+Built on top of the JAX-RS api
+
+
+How do I mark a model class for XML marshalling (@XmlRootElement)
+
+How would I set up a resource that processes a 
+post that recieves JSON information and returns xml
+
+@POST
+@Consumes(MediaType.Application_JSON)
+@Produces(MediaType.Application_XML)
+myMethod(){
+//code
+}
+
+what is the difference betwen @MatrixParm @PathParam and @QueryParam
+they are different ways to send information in the URL
+
+Can mention how the uri looks
+@MatrixParam uses values resource/name=adam;age=19
+@PathParam  resource/adam
+@QueryParam resource/name?adam
+
+What does @Context do
+allows us to get information either from the request like the headers
+or from the servlet/serlet container
+
+How do I mark a class as a resource class?
+@PATH 

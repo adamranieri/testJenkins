@@ -1,0 +1,12 @@
+<hibernate-mapping>
+
+<class name = "entity.Bear" table = "Bear">
+
+<id name ="id" type = "int" column = "id">
+<generator class= "native"></generator>
+</id>
+
+<property name = "name" column = "Bear_name" type = "string"></property>
+
+</class>
+</hibernate-mapping>

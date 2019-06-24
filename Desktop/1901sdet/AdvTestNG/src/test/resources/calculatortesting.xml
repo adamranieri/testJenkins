@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Calculator Testing">
+
+<test name = "Calculator Functionality">
+
+<parameter name = "owner" value = "Adam"/>
+
+<groups>
+
+<run>
+<include name = "four function"/>
+</run>
+
+</groups>
+
+<classes>
+
+<class name = "calculatortesting.CalcTest"/>
+
+</classes>
+
+</test>
+
+</suite>
+

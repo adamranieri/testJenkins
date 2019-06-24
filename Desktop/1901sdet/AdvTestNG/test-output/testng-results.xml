@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Alphabet Test" duration-ms="112" started-at="2019-02-22T15:22:24Z" finished-at="2019-02-22T15:22:24Z">
+    <groups>
+    </groups>
+    <test name="Test A" duration-ms="30" started-at="2019-02-22T15:22:24Z" finished-at="2019-02-22T15:22:24Z">
+      <class name="metatest.TestA">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:metatest.TestA@548a9f61]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:metatest.TestA@548a9f61]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1A()[pri:0, instance:metatest.TestA@548a9f61]" name="test1A" duration-ms="13" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1A -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:metatest.TestA@548a9f61]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:metatest.TestA@548a9f61]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:metatest.TestA@548a9f61]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2A()[pri:0, instance:metatest.TestA@548a9f61]" name="test2A" duration-ms="2" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2A -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:metatest.TestA@548a9f61]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:metatest.TestA@548a9f61]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:metatest.TestA@548a9f61]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- metatest.TestA -->
+    </test> <!-- Test A -->
+    <test name="Test B" duration-ms="10" started-at="2019-02-22T15:22:24Z" finished-at="2019-02-22T15:22:24Z">
+      <class name="metatest.TestA">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:metatest.TestA@548a9f61]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:metatest.TestB@26be92ad]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:metatest.TestA@548a9f61]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:metatest.TestB@26be92ad]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- metatest.TestA -->
+      <class name="metatest.TestB">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:metatest.TestB@26be92ad]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:metatest.TestB@26be92ad]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:metatest.TestB@26be92ad]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1B()[pri:0, instance:metatest.TestB@26be92ad]" name="test1B" duration-ms="1" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1B -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:metatest.TestB@26be92ad]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:metatest.TestB@26be92ad]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2B()[pri:0, instance:metatest.TestB@26be92ad]" name="test2B" duration-ms="1" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2B -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:metatest.TestB@26be92ad]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:metatest.TestB@26be92ad]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:metatest.TestB@26be92ad]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-22T10:22:24Z" finished-at="2019-02-22T10:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- metatest.TestB -->
+    </test> <!-- Test B -->
+  </suite> <!-- Alphabet Test -->
+</testng-results>

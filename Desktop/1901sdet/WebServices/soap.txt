@@ -1,0 +1,73 @@
+Simple Object Access Protocol
+
+It is another form of a web service
+Relies on a WSDL
+
+Web Service Definition/Description Language it is a contract
+It tells the client what this service can do and how to access this service
+
+SOAP web service can be designed/created contract first or contract last
+contract first is you create a WSDL and then code to that WSDL
+
+Contract you create your web service and use that to make the WSDL
+
+SOAP web services generate a strong coupling between the server and the client
+
+As long as the client has a WSDL you will have all the information you need
+to use a SOAP Web Service
+
+
+WSDL is written in XML
+
+<definitions> this is the root tag it defines the web service
+
+<service> defines the endpoint URL of the Web Service
+
+<binding> explains how an operaion will be communicated to or from a web service.
+with SOAP you can any protocol, you can use HTTP you can BAM, SMP, UDP
+
+<operation> It is a method within you web service <input> for that method
+and the <output> for that method. Or if something goes wrong <fault>
+
+<message> complete set of parameters 
+
+<types> will break down any custom type(class) that you are using in your service
+into primitives
+
+<porttype> will encapusulate your operation tag. 
+
+
+SOAP message
+
+- it communicates soley in the language of XML
+- XML provides a stand lingua franca for communctaion in SOAP
+
+
+
+
+REST vs SOAP
+
+REST                                                    SOAP
+
+- Architectural style                                -Protocol
+
+- no context/not contract                            -Contract based   WSDL
+hopefully documention in some
+form will tell me how to use endpoints
+
+- JSON,XML,TXT,HTML anything                         -XML
+
+- low bandwidth A JSON is                             - Each SOAP envelope is pretty  
+pretty small                                            all the structing xml sent with any message
+
+-Cacheable                                             - SOAP is not
+
+-HTTP                                                  - Any protocol
+
+- low coupling bewteen the                             - Tight coupling
+service and the client
+
+
+
+
+

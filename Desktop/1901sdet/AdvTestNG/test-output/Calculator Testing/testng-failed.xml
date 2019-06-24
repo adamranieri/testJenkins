@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Calculator Testing]">
+  <parameter name="owner" value="Adam"/>
+  <test name="Calculator Functionality">
+    <parameter name="owner" value="Adam"/>
+    <groups>
+      <run>
+        <include name="four function"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="calculatortesting.CalcTest"/>
+    </classes>
+  </test> <!-- Calculator Functionality -->
+</suite> <!-- Failed suite [Calculator Testing] -->

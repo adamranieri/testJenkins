@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Alphabet Test]">
+  <test name="Test A">
+    <classes>
+      <class name="metatest.TestA"/>
+    </classes>
+  </test> <!-- Test A -->
+  <test name="Test B">
+    <classes>
+      <class name="metatest.TestB"/>
+    </classes>
+  </test> <!-- Test B -->
+</suite> <!-- Failed suite [Alphabet Test] -->

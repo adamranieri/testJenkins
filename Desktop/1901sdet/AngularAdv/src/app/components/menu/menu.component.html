@@ -1,0 +1,11 @@
+<h3>Here is the menu</h3>
+
+
+<button (click) = "showTax()">Show tax for crab</button>
+
+
+<h6 *ngFor= "let meal of meals">{{meal.name}} {{meal.price}}</h6>
+
+<button (click) = "showFreshOptions()"> Catch of the Day!</button>
+
+<h6 *ngFor = "let food of recentcatches">{{food.name}} {{food.price}}</h6>

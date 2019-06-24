@@ -1,0 +1,64 @@
+what is a servlet?- Java object designed to handle request
+
+What is the servlet container? box that holds the servlets for an application
+responsible for directing requests to the appropriate servlet
+
+how do I congigure the servlet container? web.xml (Deployment Desriptor)
+
+tags in the web.xml? Servlet, url-pattern, servlet-name, servlet-class, context-param, init-param
+
+What is the Servlet hierarchy? - 3 intefaces servlet, servlet config and serializable
+these interfaces are implemented on GenericServlet --> HtttpServlet --> MyServlet
+
+Servlet Config vs Servlet Context - ServletConfig is configurations/info regarding a sepecific servlet. Context
+is regarding the servlet container and thus all servlets
+
+Front controller design pattern- is when you funnel all requests to a single point and then send requests to appropriate 
+services. In my example I send all requests to the one servlet by using a wildcard on the url pattern
+
+uri vs url - uri is the uniform resource identifier basically file or servlet location. 
+url uniform resource locator domain+port+uri
+
+forward vs redirect - forward is when the servlet recieves a request and sends it to another servlet.
+redirect is when a servlet recieves a request and tells the client to make a 2nd request to another location
+
+how do I perform a redirct vs a forward? - for forwards you need to create a request dispatcher from the request and
+forward to another servlet. response.sendRedirect("location")
+
+Session Handling- HttpSessions for server side session management
+cookies - client side session management. Cookie is a small text file stored in the browser
+url rewriting and hidden forms (avoid)
+
+-----------------------------------------------------------------------------------------------------------------------
+
+What is Iaas, Paas, Saas? examples?
+What is DevOps?
+advanatages to cloud computing - cost, no need to buy infrastructure, scalability
+What is Continuous Integration? CI vs CD?
+
+CI - programmers working together to push and pull code from a central repository. These trigger automatic builds
+to see if the project still works as intended. Can involve things like automated testing and sonarqube/sonarcloud
+Continuous delivery extension of CI where completed projects are conisdered ready to go live but are in a staging area
+Continuous deployment- - Extension of CD where projects that pass the tests automatically go live to end users
+
+Can you describe your pipeline?
+Can you describe how you created your pipeline?
+What is AWS?
+region vs availability zone?
+What is EC2, RDS? advantages of RDS over installing db in an ec2 instance?
+What is IAM, AMI, ELB, EBS, Load Balancer?
+What is sonarqube, security group?
+What is Autoscaling? example would be an ec2 having its ebs or processing power increase when necessary
+horizontal- getting more resources/computers
+vertical- increasing the power/memoory asssoicated with a single instance
+What is S3, route 53?
+what is vpc? virtual private cloud. Virtual lan
+What is a security - virtual firewall saying what types of messages can reach an instance and from where
+What is Jenkins? continuous integration tool
+What is a Jenkins Job?
+what are the different ways to connect to ec2 instance - linux, windows
+what is the os version used in ec2 for your pipeline?
+
+
+
+

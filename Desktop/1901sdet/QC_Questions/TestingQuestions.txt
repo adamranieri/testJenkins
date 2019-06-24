@@ -1,0 +1,68 @@
+testing interview questions
+
+Test strategy vs Test Plan? (High Level)
+Test Suite vs Test Case?
+
+Describe the testing pyramid?
+unit testing?
+Integration Testing?
+system testing?
+Acceptance/usability testing?
+Alpha Testing?
+Beta Testing?
+Smoke Testing
+
+White Box testing?
+Black Box testing?
+priority vs Severity?
+STLC?
+SDLC?
+Defect Lifecycle?
+Why might a bug get rejected or deferred?
+
+Functional testing?
+Performance Testing?
+Load testing?
+Stress testing?
+Spike Testing?
+Endurance Testing?
+
+BDD?
+TDD?
+
+Benefits of automated testing?
+What can't automated testing do?
+
+Testing Technologies
+
+What is Jasmine?
+What is the Jasmine syntax to write a test?
+What is Protractor?
+How do I run protractor tests. SHould mention conf file and specs?
+What goes in a conf file?
+
+What is Selenium?
+How do I set up Selenium in Java?
+What is the POM in respect to setting up Selenium tests?
+How can I locate web elements in Selenium?
+What is XPATH?
+explicit vs implicit wait?
+
+What is TestNG?
+What are some advantages to TestNG over JUnit?
+How are the annotations of TestNG and JUnit different?
+How do I set the order of tests in TestNG?
+What options do I have for passing data into tests for TestNG?
+What is the Testing.xml
+What is the execution order of annotations in TestNG
+What is the convention for what the dataprovider returns?
+
+What is Cucumber?
+What is Cucumber written in?
+Syntax for writing a cucumber feature?
+How do I set up and run a cucumber test?
+Scenario vs ScenarioOutline?
+What are step implementations?
+Why is it beneficial to write tests using Cucumber?
+
+

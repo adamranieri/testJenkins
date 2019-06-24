@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Alphabet Test">
+
+<test name = "Test A">
+<classes>
+
+<class name = "metatest.TestA"/>
+
+</classes>
+
+</test>
+
+<test name = "Test B">
+<classes>
+
+<class name = "metatest.TestB"/>
+
+</classes>
+
+</test>
+
+</suite>

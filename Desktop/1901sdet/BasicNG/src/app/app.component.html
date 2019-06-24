@@ -1,0 +1,68 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>This is the root component</h1>
+<h3>This is the first component loaded or bootrapped into
+  our index.html
+</h3>
+
+<!-- data bind in Angular
+data binding is linking values in our TS file to our HTML
+and vice versa
+-->
+
+<!-- interpolation uses the double mustache to take values
+in the ts file and put them in the HTML
+TS => HTML -->
+<h4>{{hello}}</h4>
+
+<!-- property binding a value stored in code is used
+to update an attribute in the HTML
+TS => HTML -->
+<a [href]="espn">ESPN</a>
+
+<!-- event binding is actions on the HTML/DOM causing changes/
+functions to be called in the code 
+HTML => TS -->
+<button (click) = "sayHello()">Hello</button>
+
+<!-- two way data binding this is the TS changes the HTML and 
+the HTML changes the TS -->
+
+<!-- Attribute directive is an custom html attribute -->
+<input type="text" [(ngModel)] = "cheer">
+<h3>{{cheer}}</h3>
+
+<hr>
+<h2>Structural directives</h2>
+
+
+<!-- Structural directives are custom HTML which adds
+or removes elements from the dom -->
+
+<p *ngIf="showparagraph">
+  Bacon ipsum dolor amet buffalo porchetta sausage, 
+  corned beef turducken pork venison strip steak 
+  short ribs. Jerky tenderloin beef jowl. 
+  Pig kevin jerky ground round. 
+  Shankle bresaola pork loin, turducken beef ribs flank 
+  tenderloin tail ball tip boudin strip steak spare ribs 
+  tongue fatback. Ham drumstick shankle, swine hamburger 
+  doner buffalo biltong leberkas short loin porchetta 
+  sirloin. Rump strip steak landjaeger, prosciutto beef 
+  ribs spare ribs tail sirloin cow capicola.
+</p>
+<h3>SSBU Characters</h3>
+<h5 *ngFor = "let hero of ray">{{hero}}</h5>
+
+<!-- Component directive is a a custom html tag -->
+<app-simple></app-simple>
+
+<h2>Pipes allow for transformations</h2>
+
+
+<!-- Pipes take in data and transform 
+it into a desired
+often more human friendly output -->
+<h4>{{money | currency : 'USD'}}</h4>
+
+
+
